@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 25px;
+    border: solid;
+    border-color: rgb(237, 238, 239);
+  }
+
+  .search-input{
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+  .maincontent{
+    background-color:rgb(237, 238, 239);
+  }
+
+  .sort{
+    width: 100%;
+    border-radius: 25px;
+    margin: 2px;
+    outline: none;
+   border: solid;
+    background: white;
+    padding: 10px;
+    border-color: rgb(237, 238, 239);
+    
+  }
+  .card{
+    background-color: white;
+  }
+
+  .profile-pic { 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+
+  .navbtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(237, 238, 239);
+    outline: none;
+    border: none;
+    margin-right: 12px;
+  }
+
+  .navbtn1{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-right: 5px;
+
+  }
+
+  .title{
+    display: none;
+  }
+
+
+  h5.usertraits{
+    color: rgb(52,60,106);
+  }
+
+ 
+  
+  @media (max-width: 768px) {
+    .title{
+        display: flex;
+    }
+
+    .maincontent{
+        background-color:transparent;
+      }
+    h5.usertraits{
+        color: rgb(255,167,137);
+      }
+
+  }
+
+  .spfont{
+    font-size: smaller;
+    font-weight: 400;
+  }
+
+  .traits{
+    background-color:rgb(237, 238, 239);
+  }
+
+  
