@@ -50,6 +50,7 @@ function renderUsers(users) {
                     <div class="card-body">
                       <h6 class="spfont"><span class="fw-bold me-2" >Occupation:</span>${user.occupation}</h6>
                       <h6 class="spfont"><span class="fw-bold me-4">Location:</span>${user.location}</h6>
+                      <h6 class="spfont"><span class="fw-bold me-2">Joined date:</span>${user.joinDate}</h6>
                       <p class="card-text" style="font-size: smaller;">${user.description}</p>
                       <h5 class="usertraits fw-bold">User traits</h5>
                       <div class="row">
